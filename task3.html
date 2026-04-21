@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task3</title>
+    <style>
+        *{
+           font-family: 'Courier New', Courier, monospace;
+        }
+        h1{
+            color:aqua;
+            font-size:medium;
+        }
+        /* p{
+            color:brown;
+            font-size: 18px;
+        } */
+        .intro{
+            color:blue;
+            font-weight: bold;
+        }
+        #para{
+            color:blue;
+            font-size: 19px;
+        }
+        .box{
+            background-color: rgba(5,5,33);
+            color: beige;
+            padding: 20px;
+            height: 100px;
+            border-radius: 10px;
+        }
+        .grid-container{
+            display:grid ;
+            /* background-color: aqua; */
+            gap: 20px;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .grid-item{
+            background: orange;
+            text-align: center;
+            padding: 20px;
+        }  
+    </style>
+</head>
+<body>
+    <h1> This is html task 3</h1>
+    <p class="intro"> This is a paragraph</p>
+    <p class="intro"> This is another paragraph</p>
+    <p id="para"> This is yet another paragraph</p>
+
+    <section class="box"></section>
+
+    <div class="container">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+    <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+    </div>
+</body>
+</html>
