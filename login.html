@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        .container{
+            width:300px;
+            margin:0 auto;
+            padding:20px;
+            border:1px white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px;
+            align-items: center;
+        }
+        body{
+            font-family: Arial, Arial, Helvetica, sans-serif;
+            background-color: aquamarine;
+        }
+        label{
+            font-weight: bold;
+        }
+        input{
+            width: 100X;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid gray;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+<form class="container">
+    <h1>Login Form</h1>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/960px-Visual_Studio_Code_1.35_icon.svg.png" width="100px" height="100px""/>
+    
+    <br/>
+    <label>First Name:</label> <br/>
+    <input type="text" placeholder="Enter your good name"/> <br/> <br/>
+
+    <label>Last Name:</label> <br/>
+    <input type="text" /> <br/> <br/>
+
+    <label>Email:</label> <br/>
+    <input type="email" /> <br/> <br/>
+
+    <label>Password:</label> <br/>
+    <input type="password" /> <br/> <br/>
+
+    <label>Confirm password:</label> <br/>
+    <input type="password" /> <br/> <br/>
+
+    <label>Age:</label> <br/>
+    <input type="number" /> <br/> <br/>
+
+    <div>
+        <label>Gender</label>
+        <input type="radio" name="gender" value="male" />Male
+        <input type="radio" name="gender" value="female"/>female
+    </div>
+    
+    <label>Skills</label> <br/>
+    <input type="checkbox" />Java <br/>
+
+    <label>please choose country:</label>
+    <select name="country"
+        <option>America</option>     
+        <option>Pakistan</option>
+        <option>Turkey</option>
+</select>
+<br/>
+<br/>
+
+<label>Bio:</label><br/>
+<textarea placeholder="write about yourself" col="30" rows="6"> </textarea><br/><br/>
+<label>upload file:</label><br/>
+<input type="file" /><br/><br/>
+
+<label>Date of birth</label><br/>
+<input type = "Date" /><br/>
+<br/>
+<br/>
+
+<input type="submit">
+    
+</form>
+
+</body>
+</html>
